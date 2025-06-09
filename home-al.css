@@ -5,7 +5,7 @@
 body
 {
     background-color: white;
-    width: 100;
+    width: 100%;
 }
 .head
 {
@@ -205,7 +205,7 @@ body
     background-image: linear-gradient(to right,#3F1D59,#1C2E60);
     color: white;
     height: 220px;
-    width: 100;
+    width: 100%;
 }
 .part
 {
@@ -285,7 +285,7 @@ main > h1 {
 	font-weight: 600;
 	
 	background-color: var(--circle-bg);
-	width: 100;
+	width: 100%;
 	margin-bottom: 1rem;
 	border-radius: min(8px, 0.5rem);
 
@@ -433,10 +433,10 @@ main > h1 {
 .faq
 {	
 	background-color: lightgrey;
-	display: row;
+	display: flex; flex-direction: column;
 	margin: 0px -8px -8px -8px;
 	padding: 10px 48px 16px 48px;
-	width:100;
+	width:100%;
 }
 h1{
     margin: 1%;
